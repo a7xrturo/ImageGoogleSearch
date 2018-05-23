@@ -1,0 +1,42 @@
+<html>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./style.css">
+  <title>Image Search Abstraction Layer</title>
+  <div class="container" style="padding-top: 20px; padding-bottom:10px">
+    <div class="jumbotron">
+      <body>
+        <h1>
+          Image Search Abstraction Layer
+        </h1>
+        <div class="well" id="y">
+          <ul>
+            <li><strong>User Story:</strong>  I can get the image URLs, alt text and page urls for a set of images relating to a given search string.
+            </li>
+            <li><strong>User Story:</strong> I can paginate through the responses by adding a <code>?offset=2</code> parameter to the URL.
+            </li>
+            <li><strong>User Story:</strong> I can get a list of the most recently submitted search strings.</li>
+          </ul>
+        </div>
+        <h3>
+          Example usage:
+        </h3>
+        <font color="green"><h4>
+          Search for images:
+          </h4></font>
+        <code>
+        https://google-image-search.glitch.me/&ltsearch&gt<br>
+        https://google-image-search.glitch.me/&ltsearch&lt?offset=&ltnumber of page&gt
+        </code>
+        <font color="green"><h4>
+          Output:
+          </h4></font>
+        <img src="https://cdn.glitch.com/f11e78b0-40e7-4d00-96a3-0980b652f94f%2Fexample.PNG?1527087644654">
+        <font color="green"><h4>
+        Look at recent searches
+          </h4></font>
+        <img src="https://cdn.glitch.com/f11e78b0-40e7-4d00-96a3-0980b652f94f%2Fhistory.PNG?1527087743536">
+      </body>
+    </div>
+        <a style="padding-bottom: 20px" href="https://github.com/a7xrturo">My Github</a>
+  </div>
+</html>
