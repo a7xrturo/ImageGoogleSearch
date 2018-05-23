@@ -12,9 +12,9 @@ Image Search Abstraction Layer challenge from freeCodeCamp
     https://google-image-search.glitch.me/<search<?offset=<number of page> 
 
 ### Output
-![alt text](./example.png)
+![alt text](https://raw.githubusercontent.com/a7xrturo/ImageGoogleSearch/master/example.PNG)
 
 ### Look at recent searches
-![alt text](./history.png)
+![alt text](https://raw.githubusercontent.com/a7xrturo/ImageGoogleSearch/master/history.PNG)
 
 ### [Link to the app](https://google-image-search.glitch.me/)
